@@ -1,16 +1,56 @@
-# dreamshield
+# 🌙 DreamShield — App Concept (SEP 758 Final)
 
-A new Flutter project.
+A next-generation sleep wellbeing app concept built with Flutter, designed to help users achieve calmer nights and deeper recovery.
 
-## Getting Started
+## ✨ Concept
+DreamShield rests on three pillars:
+1. 💤 **Sleep Tracking** — quick nightly logs + effortless edits  
+2. 🧠 **Coaching Insights** — trends + actionable tips  
+3. 🎧 **Soundscape Studio** — pink/brown/white noise mixer + breathing pacer  
 
-This project is a starting point for a Flutter application.
+The prototype emphasizes elegance, speed, and realism: multi-screen navigation, persistence, dialogs, theming, and web-ready behavior.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧩 Key Features (Mapped to Rubric)
+- 🗺️ **Screens & Navigation**
+  - **Home**: personalized overview dashboard
+  - **Sessions**: chronological sleep history
+  - **Studio**: noise mixer + breathing pacer
+  - **Explore**: interactive map for discovery
+- 🔐 **Auth (Firebase Email/Password)**
+  - User-scoped data under `users/{uid}`
+- 👤 **Profile**
+  - Goal + dark theme preferences (SharedPreferences) + Alerts
+- ✅ **Consent Sheet**
+  - One-time privacy notice
+- 🌐 **Resilient Web**
+  - Fallback behavior when sensors/BLE are unavailable
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🎬 Demo
+- Video: (add your link)
+- Live Web (optional): (add link)
+
+---
+
+## 🛠 Tech Stack
+- Flutter / Dart
+- Firebase Auth + Firestore
+- SharedPreferences
+- Google Maps (Explore screen)
+- Responsive UI + Theming
+
+---
+
+## 🚀 Run Locally
+
+### Prereqs
+- Flutter SDK installed
+- Android Studio or VS Code
+- (Optional) Firebase project
+
+### Install
+```bash
+flutter pub get
