@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "944663732784",
+    "firebase_url": "https://dreamshieldapp-default-rtdb.firebaseio.com",
+    "project_id": "dreamshieldapp",
+    "storage_bucket": "dreamshieldapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944663732784:android:a64182ecb1d159da09c3f5",
+        "android_client_info": {
+          "package_name": "com.example.dreamshield"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxHeVQcRZD7bmA8nLxstWQ1hb8RqBQVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
